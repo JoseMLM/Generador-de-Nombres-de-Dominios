@@ -1,11 +1,14 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+let pronom = ["el", "nuestro", "vuestro"];
+let adj = ["salvaje", "grande", "pequeño"];
+let nam = ["perro", "gato", "conejo"];
+let extension = [".com", ".es", ".net"];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+for (i = 0; i < pronom.length; i++) {
+  for (j = 0; j < adj.length; j++) {
+    for (x = 0; x < nam.length; x++) {
+      for (z = 0; z < extension.length; z++) {
+        console.log(pronom[i] + adj[j] + nam[x] + extension[z]);
+      }
+    }
+  }
+}
